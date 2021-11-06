@@ -1,5 +1,5 @@
 https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/
-lass Solution {
+class Solution {
     public int countBits(int n) {
         int sum = 0;
         while(n != 0) {

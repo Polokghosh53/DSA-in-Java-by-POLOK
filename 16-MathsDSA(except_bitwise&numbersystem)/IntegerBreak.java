@@ -3,14 +3,14 @@
 // and maximize the product of those integers.
 // Return the maximum product you can get.
 
-// TC: O(log(n)), when Math.pow is used.
+// TC: O(1), when Math.pow is used is constant.
 // The factors of (2, 3) are used in order to maximize the product value.
 class Solution {
     public int integerBreak(int n) {
         if(n == 2){
             return 1;
         }
-        else if(n == 2){
+        else if(n == 3){
             return 2;
         }
         else if(n % 3 == 0){

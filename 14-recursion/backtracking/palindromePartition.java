@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+// https://leetcode.com/problems/palindrome-partitioning/
+
 public class Main
 {
 	public static void main(String[] args) {

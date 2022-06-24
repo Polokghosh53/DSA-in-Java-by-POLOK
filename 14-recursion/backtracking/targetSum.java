@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/target-sum/
+// TC: O(2^n) for recursion tree size
+// SC: O(n) for depth of the recursion tree
 
 class Solution {
     

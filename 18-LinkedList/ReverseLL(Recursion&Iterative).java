@@ -36,7 +36,7 @@ public class LL {
     }
   
   // ITERATIVE
-  public void reverse() {
+  public void reverse(Node node) {
         if (size < 2) {
             return;
         }

@@ -34,6 +34,7 @@ class MinStack {
     }
 }
 
+// Using one stack
 class MinStack {
     
     Stack<Integer> stack = new Stack<>();

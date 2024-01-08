@@ -25,7 +25,7 @@ public class Heap<T extends Comparable<T>> {
         return index * 2 + 2;
     }
 
-    private void insert(T value) {
+    public void insert(T value) {
         list.add(value);
         upheap(list.size() - 1);
     }
@@ -72,5 +72,14 @@ public class Heap<T extends Comparable<T>> {
             swap(min, index);
             downheap(min);
         }
+    }
+
+    public ArrayList<T> heapSort() throws Exception {
+        ArrayList<T> data = new ArrayList<>();
+
+        while (!list.isEmpty()) {
+            data.add(this.remove());
+        }
+        return data;
     }
 }
